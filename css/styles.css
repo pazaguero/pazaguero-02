@@ -1,0 +1,54 @@
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    padding: 0px 10px;
+    background-color: red
+}
+.navbar{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    color: black;
+}
+.navbar li a{
+    text-decoration: underline;
+    color: black;
+    gap: 40px;
+}
+.navbar li a :hover{
+    color:white;
+    text-decoration: underline;
+}
+h1{
+    background-color:red;
+    color: black;
+}
+h2{
+    background-color: black;
+    color: red;
+}
+h3{
+    background-color: black;
+    color: red;
+}
+h5{
+    color: red;
+    background-color: black;
+}
+.grid-dos{
+    display: grid;
+    width: 100%;
+    height: 700px;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(6,1fr);
+}
+.grid-dos img{
+    width: 100%;
+    height: 100%;
+}
+.grid-dos h5{
+    grid-column-start: 1;
+    grid-column-end: 9;
+}
